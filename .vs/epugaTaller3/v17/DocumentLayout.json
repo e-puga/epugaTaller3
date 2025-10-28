@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Eduardo\\Documents\\Proyectos .net\\epugaTaller3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E61BF9C9-8E72-4015-B33F-ABD10529444C}|epugaTaller3.csproj|c:\\users\\eduardo\\documents\\proyectos .net\\epugataller3\\views\\frmcontacto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E61BF9C9-8E72-4015-B33F-ABD10529444C}|epugaTaller3.csproj|solutionrelative:views\\frmcontacto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E61BF9C9-8E72-4015-B33F-ABD10529444C}|epugaTaller3.csproj|c:\\users\\eduardo\\documents\\proyectos .net\\epugataller3\\views\\frmcontacto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E61BF9C9-8E72-4015-B33F-ABD10529444C}|epugaTaller3.csproj|solutionrelative:views\\frmcontacto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E61BF9C9-8E72-4015-B33F-ABD10529444C}|epugaTaller3.csproj|c:\\users\\eduardo\\documents\\proyectos .net\\epugataller3\\views\\detallefrmcontacto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E61BF9C9-8E72-4015-B33F-ABD10529444C}|epugaTaller3.csproj|solutionrelative:views\\detallefrmcontacto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E61BF9C9-8E72-4015-B33F-ABD10529444C}|epugaTaller3.csproj|c:\\users\\eduardo\\documents\\proyectos .net\\epugataller3\\views\\detallefrmcontacto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E61BF9C9-8E72-4015-B33F-ABD10529444C}|epugaTaller3.csproj|solutionrelative:views\\detallefrmcontacto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E61BF9C9-8E72-4015-B33F-ABD10529444C}|epugaTaller3.csproj|c:\\users\\eduardo\\documents\\proyectos .net\\epugataller3\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E61BF9C9-8E72-4015-B33F-ABD10529444C}|epugaTaller3.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DetalleFrmContacto.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\Proyectos .net\\epugaTaller3\\Views\\DetalleFrmContacto.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\DetalleFrmContacto.xaml.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\Proyectos .net\\epugaTaller3\\Views\\DetalleFrmContacto.xaml.cs",
+              "RelativeToolTip": "Views\\DetalleFrmContacto.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T06:02:08.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DetalleFrmContacto.xaml",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\Proyectos .net\\epugaTaller3\\Views\\DetalleFrmContacto.xaml",
+              "RelativeDocumentMoniker": "Views\\DetalleFrmContacto.xaml",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\Proyectos .net\\epugaTaller3\\Views\\DetalleFrmContacto.xaml",
+              "RelativeToolTip": "Views\\DetalleFrmContacto.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-28T05:55:48.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmContacto.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\Proyectos .net\\epugaTaller3\\Views\\FrmContacto.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\FrmContacto.xaml.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\Proyectos .net\\epugaTaller3\\Views\\FrmContacto.xaml.cs",
+              "RelativeToolTip": "Views\\FrmContacto.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T05:48:28.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\Proyectos .net\\epugaTaller3\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\Proyectos .net\\epugaTaller3\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T05:33:10.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmContacto.xaml",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\Proyectos .net\\epugaTaller3\\Views\\FrmContacto.xaml",
+              "RelativeDocumentMoniker": "Views\\FrmContacto.xaml",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\Proyectos .net\\epugaTaller3\\Views\\FrmContacto.xaml",
+              "RelativeToolTip": "Views\\FrmContacto.xaml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAlwEoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-28T05:02:10.908Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
