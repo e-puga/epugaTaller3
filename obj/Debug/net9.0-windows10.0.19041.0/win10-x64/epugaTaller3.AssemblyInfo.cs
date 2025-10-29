@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("epugaTaller3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+acd668ad2f4820824d72645f2047a065100c5e12")]
 [assembly: System.Reflection.AssemblyProductAttribute("epugaTaller3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("epugaTaller3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -4,7 +4,42 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     Title="FrmContacto"
-    BackgroundColor="Beige">
+    BackgroundColor="Gray">
+
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="TextColor" Value="#333333" />
+            <Setter Property="HorizontalOptions" Value="Center" />
+            <Setter Property="VerticalOptions" Value="Center" />
+        </Style>
+
+        <Style TargetType="Entry">
+            <Setter Property="BackgroundColor" Value="White" />
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="TextColor" Value="#333333" />
+            <Setter Property="VerticalOptions" Value="Center" />
+            <Setter Property="PlaceholderColor" Value="#333333" />
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor" Value="Blue" />
+            <Setter Property="TextColor" Value="White" />
+            <Setter Property="MaximumWidthRequest" Value="400" />
+        </Style>
+
+        <Style TargetType="DatePicker">
+            <Setter Property="TextColor" Value="#333333" />
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="BackgroundColor" Value="White" />
+        </Style>
+
+        <Style TargetType="Picker">
+            <Setter Property="TextColor" Value="#333333" />
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="BackgroundColor" Value="White" />
+        </Style>
+    </ContentPage.Resources>
 
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="20">
@@ -37,19 +72,12 @@
                 <Label
                     Grid.Row="0"
                     Grid.Column="0"
-                    FontSize="16"
-                    HorizontalOptions="Center"
-                    Text="Tipo Identificacion"
-                    TextColor="#333333"
-                    VerticalOptions="Center" />
+                    Text="Tipo Identificacion" />
 
                 <Picker
                     x:Name="pckTipoIdentificacion"
                     Grid.Row="0"
-                    Grid.Column="1"
-                    BackgroundColor="White"
-                    FontSize="16"
-                    TextColor="#333333">
+                    Grid.Column="1">
                     <Picker.Items>
                         <x:String>CI</x:String>
                         <x:String>RUC</x:String>
@@ -60,124 +88,79 @@
                 <Label
                     Grid.Row="1"
                     Grid.Column="0"
-                    FontSize="16"
-                    HorizontalOptions="Center"
-                    Text="Identificacion"
-                    TextColor="#333333"
-                    VerticalOptions="Center" />
+                    Text="Identificacion" />
 
                 <Entry
                     x:Name="txtIdentificacion"
                     Grid.Row="1"
                     Grid.Column="1"
-                    BackgroundColor="White"
-                    FontSize="16"
                     Keyboard="Numeric"
-                    Placeholder="Ingresa tu identificación"
-                    TextColor="#333333"
-                    VerticalOptions="Center" />
+                    Placeholder="Ingresa tu identificación" />
 
 
                 <Label
                     Grid.Row="2"
                     Grid.Column="0"
-                    FontSize="16"
-                    HorizontalOptions="Center"
-                    Text="Nombres"
-                    TextColor="#333333"
-                    VerticalOptions="Center" />
+                    Text="Nombres" />
 
                 <Entry
                     x:Name="txtNombres"
                     Grid.Row="2"
                     Grid.Column="1"
-                    BackgroundColor="White"
-                    FontSize="16"
-                    Placeholder="Ingresa tus nombres"
-                    TextColor="#333333" />
+                    Placeholder="Ingresa tus nombres" />
 
                 <Label
                     Grid.Row="3"
                     Grid.Column="0"
-                    FontSize="16"
-                    HorizontalOptions="Center"
-                    Text="Apellidos"
-                    TextColor="#333333"
-                    VerticalOptions="Center" />
+                    Text="Apellidos" />
 
                 <Entry
                     x:Name="txtApellidos"
                     Grid.Row="3"
                     Grid.Column="1"
-                    BackgroundColor="White"
-                    FontSize="16"
-                    Placeholder="Ingresa tus apellidos"
-                    TextColor="#333333" />
+                    Placeholder="Ingresa tus apellidos" />
 
                 <Label
                     Grid.Row="4"
                     Grid.Column="0"
-                    FontSize="16"
-                    HorizontalOptions="Center"
-                    Text="Fecha"
-                    TextColor="#333333"
-                    VerticalOptions="Center" />
+                    Text="Fecha" />
 
                 <DatePicker
                     x:Name="dtFecha"
                     Grid.Row="4"
-                    Grid.Column="1"
-                    BackgroundColor="White"
-                    TextColor="#333333" />
+                    Grid.Column="1" />
 
                 <Label
                     Grid.Row="5"
                     Grid.Column="0"
-                    FontSize="16"
-                    HorizontalOptions="Center"
-                    Text="Correo"
-                    TextColor="#333333"
-                    VerticalOptions="Center" />
+                    Text="Correo" />
 
                 <Entry
                     x:Name="txtCorreo"
                     Grid.Row="5"
                     Grid.Column="1"
-                    BackgroundColor="White"
-                    FontSize="16"
                     Keyboard="Email"
-                    Placeholder="Ingresa tu correo"
-                    TextColor="#333333" />
+                    Placeholder="Ingresa tu correo" />
 
                 <Label
                     Grid.Row="6"
                     Grid.Column="0"
-                    FontSize="16"
-                    HorizontalOptions="Center"
-                    Text="Salario"
-                    TextColor="#333333"
-                    VerticalOptions="Center" />
+                    Text="Salario" />
 
                 <Entry
                     x:Name="txtSalario"
                     Grid.Row="6"
                     Grid.Column="1"
-                    BackgroundColor="White"
-                    FontSize="16"
                     Keyboard="Numeric"
-                    Placeholder="Ingresa tu salario"
-                    TextColor="#333333" />
+                    Placeholder="Ingresa tu salario" />
 
             </Grid>
 
 
             <Button
                 x:Name="btnEnviar"
-                BackgroundColor="Blue"
                 Clicked="btnEnviar_Clicked"
-                MaximumWidthRequest="400"
-                Text="Enviar"
-                TextColor="White" />
+                Text="Enviar" />
 
         </VerticalStackLayout>
     </ScrollView>

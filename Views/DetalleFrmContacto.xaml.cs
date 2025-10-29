@@ -28,7 +28,7 @@ public partial class DetalleFrmContacto : ContentPage
             string identificacion = lblIdentificacion.Text;
             string nombres = lblNombres.Text;
             string apellidos = lblApellidos.Text;
-            string fecha = lblFecha.ToString();
+            string fecha = lblFecha.Text;
             string correo = lblCorreo.Text;
             string salario = lblSalario.Text;
             string aporteIESS = lblAporteIESS.Text;
